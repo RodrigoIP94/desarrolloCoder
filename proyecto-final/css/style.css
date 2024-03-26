@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* 
+    font-family: "Oswald", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;;
+}
+
+
+/*  nav */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav li{
+    display: inline-block;
+}
+nav li a {
+    margin: 5px 15px 5px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(16, 79, 156);
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgb(88, 114, 145);
+}
+
+nav a img{
+    height: auto;
+    width: 200px;
+}
+
+/* main general */
+
+main h1 {
+    font-family: "Oswald", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fakeCarousel {
+    height: auto;
+    width: 1250px;
+}
+
+ /* Section */
+
+.celulares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+}
+.celulares img {
+    max-height: 500px;
+}
+
+.article {
+    padding: 30px 0px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 15px 2px rgba(88, 114, 145, 0.295);
+    border-radius: 12px;
+}
+
+.article:hover{
+    transform: scale(1.1);
+}
+
+.article button {
+    padding: 6px 25px 6px 25px;
+    border-radius: 20px;
+    background-color: rgb(16, 79, 156);
+    margin: 5px;
+    color: aliceblue;
+}
+
+.article p {
+    font-size: 20px;
+    font-style:italic;
+    font-weight: 600;
+}
+
+.article h3 {
+    font-size: 25px;
+    color: rgb(16, 79, 156);
+}
+
+
+
+
